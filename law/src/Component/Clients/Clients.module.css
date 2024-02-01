@@ -25,7 +25,7 @@
   width: 359px;
   height: 368px;
   margin-top: 50px;
-
+  background-color: var(--color-primary);
   flex-direction: column;
   justify-content: flex-end;
   border: 1px solid #ffffff1a;
@@ -35,12 +35,8 @@
   width: 105px;
   height: 102px;
   padding: 20px;
-  object-fit: fill;
 }
-.content {
-  display: flex;
-  flex-direction: column;
-}
+
 .name {
   width: 148px;
   height: 24px;

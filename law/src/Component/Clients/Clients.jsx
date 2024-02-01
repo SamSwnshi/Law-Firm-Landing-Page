@@ -19,11 +19,10 @@ const Clients = () => {
 
       <div className={style.rapper}>
         <Cards
-          sx={{ maxWidth: 359 }}
           style={{ backgroundColor: "transparent" }}
           className={style.square}
         >
-          <Avatar alt="Jane Cooper" src={client1} className={style.img} />
+          <img src={client1} alt="Jane Cooper" className={style.img} />
 
           <CardContent className={style.content}>
             <Typography variant="h5" className={style.name}>
@@ -43,7 +42,8 @@ const Clients = () => {
           style={{ backgroundColor: "#2E2E2E" }}
           className={style.square}
         >
-          <Avatar alt="Devon Lane" src={client3} className={style.img} />
+          <img src={client3} alt="Jane Cooper" className={style.img} />
+
           <CardContent>
             <Typography variant="h5" className={style.name}>
               Devon Lane
@@ -62,7 +62,7 @@ const Clients = () => {
           style={{ backgroundColor: "transparent" }}
           className={style.square}
         >
-          <Avatar alt="Robert Fox" src={client2} className={style.img} />
+          <img src={client2} alt="Robert Fox" className={style.img} />
           <CardContent>
             <Typography variant="h5" className={style.name}>
               Robert Fox
