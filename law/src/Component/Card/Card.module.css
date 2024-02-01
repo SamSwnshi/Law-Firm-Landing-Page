@@ -9,10 +9,10 @@
   justify-content: space-between;
   align-items: center;
   line-height: 22.75px;
-  /* border: 1px solid red; */
 }
 
 .rapper {
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-beteen;
@@ -20,7 +20,7 @@
 }
 .box {
   border-radius: 14px;
-  padding: 35px 15px;
+  padding: 20px 25px;
   color: var(--color-white);
   line-height: 24px;
   border: 1.4px solid grey;
@@ -43,6 +43,7 @@
   font-size: 24px;
 }
 .paragraph {
+  font-family: 14px;
   margin-top: 20px;
   opacity: 50%;
 }

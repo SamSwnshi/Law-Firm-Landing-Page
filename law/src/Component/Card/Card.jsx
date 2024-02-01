@@ -12,51 +12,39 @@ const Card = () => {
       <h1>Why Choose us?</h1>
 
       <div className={style.rapper}>
-        <Cards style={{ backgroundColor: "transparent" }} className={style.box}>
+        <div className={style.box}>
           <img src={Gift} alt="" />
-          <CardContent>
-            <Typography variant="h5" component="div" className={style.heading}>
-              98% Success Rate
-            </Typography>
-            <Typography className={style.paragraph}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <button className={style.btns}>Read More</button>
-          </CardActions>
-        </Cards>
-        <Cards className={style.box} style={{ backgroundColor: "#2E2E2E" }}>
+          <h3 variant="h5" component="div" className={style.heading}>
+            98% Success Rate
+          </h3>
+          <p className={style.paragraph}>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequatduis enim velit mollit Exer.
+          </p>
+          <button className={style.btns}>Read More</button>
+        </div>
+        <div className={style.box} style={{ backgroundColor: "#2E2E2E" }}>
           <img src={Gift} alt="" />
-          <CardContent>
-            <Typography variant="h5" component="div" className={style.heading}>
-              100% Success Rate
-            </Typography>
-            <Typography className={style.paragraph}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <button className={style.btns}>Read More</button>
-          </CardActions>
-        </Cards>
-        <Cards className={style.box} style={{ backgroundColor: "transparent" }}>
+          <h3 variant="h5" component="div" className={style.heading}>
+            100% Success Rate
+          </h3>
+          <p className={style.paragraph}>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequatduis enim velit mollit Exer.
+          </p>
+          <button className={style.btns}>Read More</button>
+        </div>
+        <div className={style.box}>
           <img src={Gift} alt="" />
-          <CardContent>
-            <Typography variant="h5" component="div" className={style.heading}>
-              100% Success Rate
-            </Typography>
-            <Typography className={style.paragraph}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <button className={style.btns}>Read More</button>
-          </CardActions>
-        </Cards>
+          <h3 variant="h5" component="div" className={style.heading}>
+            100% Success Rate
+          </h3>
+          <p className={style.paragraph}>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequatduis enim velit mollit Exer.
+          </p>
+          <button className={style.btns}>Read More</button>
+        </div>
       </div>
     </div>
   );
