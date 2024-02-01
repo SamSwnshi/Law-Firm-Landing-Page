@@ -12,12 +12,7 @@ const Card = () => {
       <h1>Why Choose us?</h1>
 
       <div className={style.rapper}>
-        <Cards
-          style={{ backgroundColor: "transparent" }}
-          sx={{ maxWidth: 345 }}
-          className={style.detail}
-        >
-          {/* <CardMedia component="img" image={Gift} className={style.gift} /> */}
+        <Cards style={{ backgroundColor: "transparent" }} className={style.box}>
           <img src={Gift} alt="" />
           <CardContent>
             <Typography variant="h5" component="div" className={style.heading}>
@@ -32,11 +27,7 @@ const Card = () => {
             <button className={style.btns}>Read More</button>
           </CardActions>
         </Cards>
-        <Cards
-          sx={{ maxWidth: 345 }}
-          className={style.detail}
-          style={{ backgroundColor: "#2E2E2E" }}
-        >
+        <Cards className={style.box} style={{ backgroundColor: "#2E2E2E" }}>
           <img src={Gift} alt="" />
           <CardContent>
             <Typography variant="h5" component="div" className={style.heading}>
@@ -51,11 +42,7 @@ const Card = () => {
             <button className={style.btns}>Read More</button>
           </CardActions>
         </Cards>
-        <Cards
-          sx={{ maxWidth: 345 }}
-          className={style.detail}
-          style={{ backgroundColor: "transparent" }}
-        >
+        <Cards className={style.box} style={{ backgroundColor: "transparent" }}>
           <img src={Gift} alt="" />
           <CardContent>
             <Typography variant="h5" component="div" className={style.heading}>
