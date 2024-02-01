@@ -25,7 +25,9 @@
   width: 359px;
   height: 368px;
   margin-top: 50px;
+
   background-color: var(--color-primary);
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
   border: 1px solid #ffffff1a;
@@ -43,13 +45,14 @@
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: var(--color-white);
 }
 .company {
   width: 80px;
   height: 24px;
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 20px;
+  color: var(--color-white);
 }
 .paragraph {
   width: 293px;

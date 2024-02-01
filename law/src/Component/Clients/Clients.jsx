@@ -18,30 +18,30 @@ const Clients = () => {
       </div>
 
       <div className={style.rapper}>
-        <Cards
-          style={{ backgroundColor: "transparent" }}
-          className={style.square}
-        >
-          <img src={client1} alt="Jane Cooper" className={style.img} />
+        <div className={style.square}>
+          <Cards style={{ backgroundColor: "transparent" }}>
+            <img src={client1} alt="Jane Cooper" className={style.img} />
 
-          <CardContent className={style.content}>
-            <Typography variant="h5" className={style.name}>
-              Jane Cooper
-            </Typography>
-            <Typography variant="h7" component="div" className={style.company}>
-              Ceo of Hunt
-            </Typography>
-            <Typography className={style.paragraph}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </Typography>
-          </CardContent>
-        </Cards>
-        <Cards
-          sx={{ maxWidth: 345 }}
-          style={{ backgroundColor: "#2E2E2E" }}
-          className={style.square}
-        >
+            <CardContent className={style.content}>
+              <Typography variant="h5" className={style.name}>
+                Jane Cooper
+              </Typography>
+              <Typography
+                variant="h7"
+                component="div"
+                className={style.company}
+              >
+                Ceo of Hunt
+              </Typography>
+              <Typography className={style.paragraph}>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequatduis enim velit mollit Exer.
+              </Typography>
+            </CardContent>
+          </Cards>
+        </div>
+        <div></div>
+        <Cards style={{ backgroundColor: "#2E2E2E" }} className={style.square}>
           <img src={client3} alt="Jane Cooper" className={style.img} />
 
           <CardContent>
@@ -58,7 +58,6 @@ const Clients = () => {
           </CardContent>
         </Cards>
         <Cards
-          sx={{ maxWidth: 345 }}
           style={{ backgroundColor: "transparent" }}
           className={style.square}
         >
