@@ -60,3 +60,16 @@
   font-size: 14px;
   opacity: 50%;
 }
+.newSqur {
+  color: var(--color-white);
+  width: 359px;
+  height: 368px;
+  margin-top: 50px;
+
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid #ffffff1a;
+  border-radius: 14px;
+}

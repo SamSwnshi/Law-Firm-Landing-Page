@@ -40,41 +40,50 @@ const Clients = () => {
             </CardContent>
           </Cards>
         </div>
-        <div></div>
-        <Cards style={{ backgroundColor: "#2E2E2E" }} className={style.square}>
-          <img src={client3} alt="Jane Cooper" className={style.img} />
+        <div className={style.newSqur}>
+          <Cards style={{ backgroundColor: "#2E2E2E" }}>
+            <img src={client3} alt="Jane Cooper" className={style.img} />
 
-          <CardContent>
-            <Typography variant="h5" className={style.name}>
-              Devon Lane
-            </Typography>
-            <Typography variant="h7" component="div" className={style.company}>
-              Ceo of Hunt
-            </Typography>
-            <Typography className={style.paragraph}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </Typography>
-          </CardContent>
-        </Cards>
-        <Cards
-          style={{ backgroundColor: "transparent" }}
-          className={style.square}
-        >
-          <img src={client2} alt="Robert Fox" className={style.img} />
-          <CardContent>
-            <Typography variant="h5" className={style.name}>
-              Robert Fox
-            </Typography>
-            <Typography variant="h7" component="div" className={style.company}>
-              Ceo of Hunt
-            </Typography>
-            <Typography className={style.paragraph}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequatduis enim velit mollit Exer.
-            </Typography>
-          </CardContent>
-        </Cards>
+            <CardContent>
+              <Typography variant="h5" className={style.name}>
+                Devon Lane
+              </Typography>
+              <Typography
+                variant="h7"
+                component="div"
+                className={style.company}
+              >
+                Ceo of Hunt
+              </Typography>
+              <Typography className={style.paragraph}>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequatduis enim velit mollit Exer.
+              </Typography>
+            </CardContent>
+          </Cards>
+        </div>
+
+        <div className={style.square}>
+          <Cards style={{ backgroundColor: "transparent" }}>
+            <img src={client2} alt="Robert Fox" className={style.img} />
+            <CardContent>
+              <Typography variant="h5" className={style.name}>
+                Robert Fox
+              </Typography>
+              <Typography
+                variant="h7"
+                component="div"
+                className={style.company}
+              >
+                Ceo of Hunt
+              </Typography>
+              <Typography className={style.paragraph}>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequatduis enim velit mollit Exer.
+              </Typography>
+            </CardContent>
+          </Cards>
+        </div>
       </div>
     </div>
   );
