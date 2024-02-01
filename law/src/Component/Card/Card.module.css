@@ -11,12 +11,12 @@
   line-height: 22.75px;
   /* border: 1px solid red; */
 }
-.gift {
+/* .gift {
   mix-blend-mode: color-burn;
   width: 101px;
   height: 101px;
   border-radius: 50%;
-}
+} */
 .rapper {
   display: flex;
   flex-direction: row;
