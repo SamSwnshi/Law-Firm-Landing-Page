@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "@mui/material";
+
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import style from "./Ourteam.module.css";
@@ -17,62 +17,58 @@ const OurTeam = () => {
       <h4 className={style.heading}>Our Team</h4>
 
       <Stack direction="row" spacing={6} className={style.details}>
-        <Card className={style.box}>
-          <div>
-            <Avatar src={Danial} className={style.img} />
-          </div>
-          <div style={{ color: "black" }}>
+        <div className={style.box}>
+          <img src={Danial} alt="Danial" className={style.img} />
+          <div className={style.edit}>
             <Typography className={style.name}>Danial</Typography>
             <Typography className={style.case}>301 Cases</Typography>
           </div>
-        </Card>
-        <Card className={style.box} style={{ backgroundColor: "#E3B748" }}>
-          <div>
-            <Avatar src={Sanfole} className={style.img} />
-          </div>
-          <div>
+        </div>
+        <div
+          className={style.box}
+          style={{ backgroundColor: "#E3B748", borderRadius: "14px" }}
+        >
+          <img src={Sanfole} alt="Sanfole" className={style.img} />
+
+          <div className={style.edit}>
             <Typography className={style.yello}>Sanfole</Typography>
             <Typography className={style.case}>850 Cases</Typography>
           </div>
-        </Card>
-        <Card className={style.box}>
-          <div>
-            <Avatar src={Cesforila} className={style.img} />
-          </div>
-          <div>
+        </div>
+        <div className={style.box}>
+          <img src={Cesforila} alt="Cesforila" className={style.img} />
+
+          <div className={style.edit}>
             <Typography className={style.name}>Cesforila</Typography>
             <Typography className={style.case}>470 Cases</Typography>
           </div>
-        </Card>
+        </div>
       </Stack>
       <Stack direction="row" spacing={6} className={style.details}>
-        <Card className={style.box}>
-          <div>
-            <Avatar src={Colleen} className={style.img} />
-          </div>
-          <div>
+        <div className={style.box}>
+          <img src={Colleen} alt="Colleen" className={style.img} />
+
+          <div className={style.edit}>
             <Typography className={style.name}>Colleen</Typography>
             <Typography className={style.case}>180 Cases</Typography>
           </div>
-        </Card>
-        <Card className={style.box}>
-          <div>
-            <Avatar src={Haldone} className={style.img} />
-          </div>
-          <div>
+        </div>
+        <div className={style.box}>
+          <img src={Haldone} alt="Haldone" className={style.img} />
+
+          <div className={style.edit}>
             <Typography className={style.name}>Haldone</Typography>
             <Typography className={style.case}>212 Cases</Typography>
           </div>
-        </Card>
-        <Card className={style.box}>
-          <div>
-            <Avatar src={NikJoe} className={style.img} />
-          </div>
-          <div>
+        </div>
+        <div className={style.box}>
+          <img src={NikJoe} alt="NikJoe" className={style.img} />
+
+          <div className={style.edit}>
             <Typography className={style.name}>NikJoe</Typography>
             <Typography className={style.case}>350 Cases</Typography>
           </div>
-        </Card>
+        </div>
       </Stack>
     </div>
   );

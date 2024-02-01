@@ -3,10 +3,6 @@
   width: 1156px;
   height: 425px;
   margin-left: 198px;
-  /* border: 1px solid red; */
-  /* display: flex;
-  flex-direction: column; */
-
   color: var(--color-white);
 }
 .heading {
@@ -28,11 +24,11 @@ Avatar {
   padding-left: 19px;
 }
 .box {
-  width: 209px;
-  height: 68px;
-  padding: 0 0 0 20px;
+  width: 344px;
+  height: 109px;
+  padding: 0 0 0 30px;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-evenly; */
   align-items: center;
   padding-right: 10px;
   background-color: transparent;
@@ -60,4 +56,8 @@ Avatar {
   font-size: 24px;
   font-weight: 600;
   color: var(--color-black);
+}
+.edit {
+  margin-right: 10px;
+  margin-left: 25px;
 }
