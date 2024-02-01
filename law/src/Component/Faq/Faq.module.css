@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 197px;
+  width: 1140px;
+  height: 629px;
+  margin-left: 207px;
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+h1 {
+  font-size: 54px;
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.accor {
+  width: 564px;
+  height: 540px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+}
+.rapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
